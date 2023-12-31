@@ -107,8 +107,15 @@ EMBEDDING_MODEL_NAME = "hkunlp/instructor-large"  # Uses 1.5 GB of VRAM (High Ac
 # MODEL_BASENAME = "Llama-2-ko-7B-chat-gguf-q4_1.bin"
 
 # Success 23.12.31
-MODEL_ID = "davidkim205/komt-mistral-7b-v1-gguf"
-MODEL_BASENAME = "ggml-model-q4_k_m.gguf"
+# MODEL_ID = "davidkim205/komt-mistral-7b-v1-gguf"
+# MODEL_BASENAME = "ggml-model-q4_k_m.gguf"
+
+# Success 23.12.31 and so in English
+# MODEL_ID = "TheBloke/SOLAR-10.7B-Instruct-v1.0-GGUF"
+# MODEL_BASENAME = "solar-10.7b-instruct-v1.0.Q4_K_M.gguf"
+
+MODEL_ID = "TheBloke/SOLARC-MOE-10.7Bx4-GGUF"
+MODEL_BASENAME = "solarc-moe-10.7bx4.Q4_K_M.gguf"
 
 # MODEL_ID = "TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
 # MODEL_BASENAME = "mistral-7b-instruct-v0.1.Q8_0.gguf"
