@@ -28,7 +28,8 @@ CHROMA_SETTINGS = Settings(
 )
 
 # Context Window and Max New Tokens
-CONTEXT_WINDOW_SIZE = 4096
+# CONTEXT_WINDOW_SIZE = 4096
+CONTEXT_WINDOW_SIZE = 9082
 MAX_NEW_TOKENS = CONTEXT_WINDOW_SIZE  # int(CONTEXT_WINDOW_SIZE/4)
 
 #### If you get a "not enough space in the buffer" error, you should reduce the values below, start with half of the original values and keep halving the value until the error stops appearing
@@ -98,8 +99,16 @@ EMBEDDING_MODEL_NAME = "hkunlp/instructor-large"  # Uses 1.5 GB of VRAM (High Ac
 # MODEL_ID = "TheBloke/Llama-2-13b-Chat-GGUF"
 # MODEL_BASENAME = "llama-2-13b-chat.Q4_K_M.gguf"
 
-MODEL_ID = "TheBloke/Llama-2-7b-Chat-GGUF"
-MODEL_BASENAME = "llama-2-7b-chat.Q4_K_M.gguf"
+# MODEL_ID = "TheBloke/Llama-2-7b-Chat-GGUF"
+# MODEL_BASENAME = "llama-2-7b-chat.Q4_K_M.gguf"
+
+# failure
+# MODEL_ID = "StarFox7/Llama-2-ko-7B-chat-gguf"
+# MODEL_BASENAME = "Llama-2-ko-7B-chat-gguf-q4_1.bin"
+
+# Success 23.12.31
+MODEL_ID = "davidkim205/komt-mistral-7b-v1-gguf"
+MODEL_BASENAME = "ggml-model-q4_k_m.gguf"
 
 # MODEL_ID = "TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
 # MODEL_BASENAME = "mistral-7b-instruct-v0.1.Q8_0.gguf"
