@@ -113,7 +113,7 @@ EMBEDDING_MODEL_NAME = "hkunlp/instructor-large"  # Uses 1.5 GB of VRAM (High Ac
 # Success 23.12.31 and so in English
 # MODEL_ID = "TheBloke/SOLAR-10.7B-Instruct-v1.0-GGUF"
 # MODEL_BASENAME = "solar-10.7b-instruct-v1.0.Q4_K_M.gguf"
-
+# Failure other case llama.cpp branch mixtral
 MODEL_ID = "TheBloke/SOLARC-MOE-10.7Bx4-GGUF"
 MODEL_BASENAME = "solarc-moe-10.7bx4.Q4_K_M.gguf"
 
